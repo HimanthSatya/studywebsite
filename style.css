@@ -1,0 +1,353 @@
+html,body{
+    overflow: hidden;    background:linear-gradient(135deg,#2E3192 , #1BFFFF);
+    height: 100%;
+    width: 100%;
+}
+*{
+    margin: 0;
+    padding: 0;
+    background-attachment: fixed;
+    box-sizing: border-box;
+    font-family:  "Qwigley", cursive;
+    
+}
+.logo {
+  font-family:  "Qwigley", cursive;
+  font-style: normal;
+  display: flex;
+  text-decoration: none;
+  justify-content: space-between;
+  color: white;
+  margin:17px 25px;
+  padding-left: 17px;
+  font-weight: 700;
+  font-size: 32px;
+  letter-spacing: 5px;
+  text-shadow: 2px 2px 4px rgba(240, 224, 232, 0.2);
+  transition:  none 2s ease-in;
+  width:200px;
+}
+.logo:hover{
+    text-shadow: 0px 0px 18px white;
+    background-color: transparent;
+}
+p{
+    color: white;
+    text-shadow: 0px 0px 27px white;
+    font-size: 33px;
+    display: flex;
+    width: 100%;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 3px;
+
+}
+i {
+    color: white;
+    font-size: 17px;
+    background:inherit;
+    text-shadow: 2px 2px 4px rgba(240, 224, 232, 0.2); 
+}
+
+i:hover {
+    text-shadow: 0px 0px 10px white; 
+    background-color: transparent; 
+}
+
+.playbar{
+    background: linear-gradient(-75deg,#2E3192 , #1BFFFF);
+    box-shadow: 0px 0px 5px white;
+    height:10%;
+    background: inherit;
+    background-attachment: fixed;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.playback{
+    background: inherit;
+    display: flex;
+    align-items: center;
+}
+.volume{
+    background: inherit;
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+button{
+    border: none;
+    background:none;
+    width:50px;
+    height: 50px;
+}
+#pause{
+    display: none;
+}
+#spanvolume{
+    background: none;
+    font-family: "Great Vibes", cursive;
+    font-weight: 800;
+    font-size: 20px;
+    color: white;
+    margin-right: 15px;
+    margin-left: 10px;
+}
+#volume {
+    appearance: none;
+    -webkit-appearance: none;
+    border-radius: 10px;
+    background: linear-gradient(to right, rgba(71, 228, 71, 0.7), rgba(214, 109, 109, 0.8));
+    cursor: pointer;
+    height: 5%;
+    color: red; 
+    box-shadow: 0px 0px 18px white; 
+}
+
+#volume::-webkit-slider-thumb {
+    appearance: none;
+    -webkit-appearance: none;
+    background: radial-gradient(rgb(212, 101, 101),rgb(30, 30, 189));
+    border-radius: 50%; 
+    box-shadow: 0px 0px 10px rgb(120, 120, 240);
+    cursor: pointer;
+    border: none;
+    width: 18px;
+    height: 18px;
+}
+
+#volumeoff{
+    display: none;
+}
+#time{
+    font-family: "Bebas Neue", sans-serif;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+.date{
+    background: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.date span{
+    font-family:cursive;
+    font-size: 25px;
+    color: white;
+    font-family: "Qwigley", cursive;
+    text-shadow: 0px 0px 18px white;
+    
+
+}
+.timediv span{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 265px;
+    background: linear-gradient(135deg, rgb(221, 50, 50) 0%, rgb(120, 93, 52) 10%, rgb(30, 31, 15) 20%, rgb(34, 68, 33) 30%, rgb(10, 52, 51) 40%, rgb(6, 72, 83) 50%, rgb(26, 35, 44) 60%, rgb(32, 28, 39) 70%, rgb(29, 13, 35) 80%, rgb(183, 162, 180) 90%, rgb(160, 18, 18) 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#startfocusdiv{
+    background: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#startfocus{
+    color: white;
+    background: none;
+    font-size: 35px;
+    width: 300px;
+    padding-left: 60px;
+    text-shadow: 0px 0px 28px white;
+    letter-spacing: 3px;
+}
+#startfocus:hover{
+    text-shadow: 0px 0px 8px white;
+
+}
+html,body{
+    overflow: hidden;    background:linear-gradient(135deg,#2E3192 , #1BFFFF);
+    height: 100%;
+    width: 100%;
+}
+*{
+    margin: 0;
+    padding: 0;
+    background-attachment: fixed;
+    box-sizing: border-box;
+    font-family:  "Qwigley", cursive;
+    
+}
+.logo {
+  font-family:  "Qwigley", cursive;
+  font-style: normal;
+  display: flex;
+  text-decoration: none;
+  justify-content: space-between;
+  color: white;
+  margin:17px 25px;
+  padding-left: 17px;
+  font-weight: 700;
+  font-size: 32px;
+  letter-spacing: 5px;
+  text-shadow: 2px 2px 4px rgba(240, 224, 232, 0.2);
+  transition:  none 2s ease-in;
+  width:200px;
+}
+.logo:hover{
+    text-shadow: 0px 0px 18px white;
+    background-color: transparent;
+}
+p{
+    color: white;
+    text-shadow: 0px 0px 27px white;
+    font-size: 33px;
+    display: flex;
+    width: 100%;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 3px;
+
+}
+i {
+    color: white;
+    font-size: 17px;
+    background:inherit;
+    text-shadow: 2px 2px 4px rgba(240, 224, 232, 0.2); 
+}
+
+i:hover {
+    text-shadow: 0px 0px 10px white; 
+    background-color: transparent; 
+}
+
+.playbar{
+    background: linear-gradient(-75deg,#2E3192 , #1BFFFF);
+    box-shadow: 0px 0px 5px white;
+    height:10%;
+    background: inherit;
+    background-attachment: fixed;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.playback{
+    background: inherit;
+    display: flex;
+    align-items: center;
+}
+.volume{
+    background: inherit;
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+button{
+    border: none;
+    background:none;
+    width:50px;
+    height: 50px;
+}
+#pause{
+    display: none;
+}
+#spanvolume{
+    background: none;
+    font-family: "Great Vibes", cursive;
+    font-weight: 800;
+    font-size: 20px;
+    color: white;
+    margin-right: 15px;
+    margin-left: 10px;
+}
+#volume {
+    appearance: none;
+    -webkit-appearance: none;
+    border-radius: 10px;
+    background: linear-gradient(to right, rgba(71, 228, 71, 0.7), rgba(214, 109, 109, 0.8));
+    cursor: pointer;
+    height: 5%;
+    color: red; 
+    box-shadow: 0px 0px 18px white; 
+}
+
+#volume::-webkit-slider-thumb {
+    appearance: none;
+    -webkit-appearance: none;
+    background: radial-gradient(rgb(212, 101, 101),rgb(30, 30, 189));
+    border-radius: 50%; 
+    box-shadow: 0px 0px 10px rgb(120, 120, 240);
+    cursor: pointer;
+    border: none;
+    width: 18px;
+    height: 18px;
+}
+
+#volumeoff{
+    display: none;
+}
+#time{
+    font-family: "Bebas Neue", sans-serif;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+.date{
+    background: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.date span{
+    font-family:cursive;
+    font-size: 25px;
+    color: white;
+    font-family: "Qwigley", cursive;
+    text-shadow: 0px 0px 18px white;
+    
+
+}
+.timediv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.timediv span{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 265px;
+    background: linear-gradient(135deg, rgb(221, 50, 50) 0%, rgb(120, 93, 52) 10%, rgb(30, 31, 15) 20%, rgb(34, 68, 33) 30%, rgb(10, 52, 51) 40%, rgb(6, 72, 83) 50%, rgb(26, 35, 44) 60%, rgb(32, 28, 39) 70%, rgb(29, 13, 35) 80%, rgb(183, 162, 180) 90%, rgb(160, 18, 18) 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#startfocusdiv{
+    background: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#startfocus{
+    color: white;
+    background: none;
+    font-size: 35px;
+    width: 300px;
+    padding-left: 60px;
+    text-shadow: 0px 0px 28px white;
+    letter-spacing: 3px;
+}
+#startfocus:hover{
+    text-shadow: 0px 0px 8px white;
+
+}
