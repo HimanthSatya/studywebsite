@@ -16,7 +16,7 @@ let hhours = document.getElementById("hours");
 let hminutes = document.getElementById("minutes");
 let hyear = document.getElementById("year");
 let hseconds = document.getElementById("seconds");
-let musicArray = ["Y2meta.app - Popular Anime Openings But It's Lofi Remix ~ Best Anime Lofi Hip Hop Mix (320 kbps).mp3","Y2meta.app - 30 Minute Timer Lofi (320 kbps).mp3","Y2meta.app - Lofi Dreamy Music_ Calming Music, Relaxing Music, Study Music, Focus Music & Sleep Music (320 kbps).mp3"]
+let musicArray = ["music1","music2","music3","music4"];
 let musicNumber = Math.floor(Math.random()*3);
 const audio = new Audio(musicArray[musicNumber]);
 
