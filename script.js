@@ -16,7 +16,7 @@ let hhours = document.getElementById("hours");
 let hminutes = document.getElementById("minutes");
 let hyear = document.getElementById("year");
 let hseconds = document.getElementById("seconds");
-let musicArray = ["music1","music2","music3","music4"];
+let musicArray = ["music1.mp3","music2.mp3","music3.mp3","music4.mp3"];
 let musicNumber = Math.floor(Math.random()*3);
 const audio = new Audio(musicArray[musicNumber]);
 
@@ -87,7 +87,7 @@ async function getquote(){
 getquote();
 startfocus.addEventListener('click', function() {
     if (startfocus.innerText === "Start Focus") {
-        var videoSrc = '150883 (1080p).mp4';
+        var videoSrc = 'backgroundvideo.mp4';
         audio.play()
         var video = document.createElement('video');
         video.setAttribute('autoplay', true);
